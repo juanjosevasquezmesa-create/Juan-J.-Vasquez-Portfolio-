@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="RPCStyle.css">
+    <body>
+        <h1>Rock Paper SCISSORS!!!</h1>
+        <p>Make your choice.</p>
+        <p id="result">Result</p>  
+        <p id="score">Score: 0</p>
+        <div class="overallContainer">
+            <div class="btnContainer">
+                <button type="button" id="rock" class="transition" onclick="game(0)">
+                    <div>Rock</div> 
+                    <img id="rockImg"></img>
+                </button>
+                <button type="button" id="paper" class="transition" onclick="game(1)">
+                    <div>Paper</div>
+                    <img id="paperImg"></img>
+                </button>
+                <button type="button" id="scissors" class="transition" onclick="game(2)">
+                    <div>Scissors</div>
+                    <img id="scissorsImg"></img>
+                </button>
+            </div>            
+        </div>
+
+        
+    </body>
+    <script src="RPCScript.js"></script>
+</html>

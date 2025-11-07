@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+p, h1{
+    text-align: center;
+}
+
+.overallContainer{
+    display: flex; 
+    justify-content: center;
+}
+
+.btnContainer{
+    padding: 0 auto;
+    gap: 15px;
+}
+
+#rockImg{
+    content: url(majestic_rock.jpg);
+    zoom: 0.1;
+    border-radius: 25px;
+    
+}
+
+#paperImg{
+    content: url(notepad.jpg);
+    zoom: 0.1;
+        border-radius: 25px;
+
+}
+
+#scissorsImg{
+    content: url(scissors.jpg);
+    aspect-ratio: 2/3;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.transition{
+    transition: 0.4s ease-in-out;
+}
+
+.transition:hover{
+    margin: 10px;
+    scale: 1.2;
+}
